@@ -1,17 +1,9 @@
-#include<cs50.h>
 #include<stdio.h>
+#include<cs50.h>
+#include<string.h>
 int main(void){
-string s = get_string("text: ");
-int i =0;
-while(s[i] != '\0'){
-i++;
 
-
-
-}
-printf("%i\n",i);
-
-
-
-
+string name = get_string("text: ");
+int hamada = strlen(name);
+printf("%d\n",hamada);
 }
