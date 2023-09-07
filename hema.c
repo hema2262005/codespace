@@ -3,7 +3,9 @@
 #include<string.h>
 int main(void){
 
-string name = get_string("text: ");
-int hamada = strlen(name);
-printf("%d\n",hamada);
+string s = get_string("te")
+
+
+
+
 }
