@@ -2,14 +2,16 @@
 #include<stdio.h>
 int main(void){
 string s = get_string("text: ");
-int i=0;
-while(s[i]!='\0'){
+int i =0;
+while(s[i] != \0){
 
-i++;
 
+
+    
 }
 
-printf("%i\n",i);
+
+
 
 
 }
