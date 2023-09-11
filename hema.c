@@ -6,5 +6,10 @@ typedef struct{
     string numbers;
 } pb;
 int main(void){
+
     
+    for(int i = 0 ; i < 2 ; i++){
+if()
+
+    }
 }
