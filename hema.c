@@ -4,7 +4,7 @@
 int main(void){
 string names[] = {"ali","osama","mai","sama"};
 for(int i=0; i<4;i++){
-if(strcmp(names[i],mai)){
+if(strcmp(names[i],mai)==0){
     printf("found in %i steps\n", i+1);
     return 0;
 }
