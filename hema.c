@@ -1,20 +1,17 @@
-#include<cs50.h>
 #include<stdio.h>
+#include<cs50.h>
 #include<string.h>
 typedef struct{
-    string names;
-    string numbers;
-} pb;
+    string name;
+    string number;
+}pb;
 int main(void){
 pb people[2];
-people[0].names="ali";
-people[0].numbers="0115033";
-people[1].names="david";
-people[1].numbers="01521635";
-    for(int i = 0 ; i < 2 ; i++){
-if(strcmp(people[i].names,"ali")==0){printf("found %s/n",people[i].numbers);
-return 0;
+people[0].name="ali";
+people[0].number="012156"
+people[1].name="sama";
+people[1].number="0153411";
+for(int i=0; i<2; i++){
+    
 }
-
-    }
 }
