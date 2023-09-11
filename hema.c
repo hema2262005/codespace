@@ -1,12 +1,15 @@
-#include<stdio.h>
 #include<cs50.h>
+#include<stdio.h>
+#include<string.h>
 int main(void){
-int num[] = {4,5,7,5,8,1,0};
-for( int i=0; i<7; i++){
-    if(num[i]==54){
-        printf("found in steps %i\n" , i+1);
-        return 0;
-    }
+string names[] = {"ali","osama","mai","sama"};
+for(int i=0; i<4;i++){
+if(strcmp(names[i],mai)){
+    printf("found in %i steps\n", i+1);
+    return 0;
+}
+
+
 }
 printf("not found\n");
 return 1;
