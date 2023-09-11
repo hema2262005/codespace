@@ -1,17 +1,16 @@
-#include<cs50.h>
 #include<stdio.h>
+#include<cs50.h>
 #include<string.h>
 int main(void){
-string names[] = {"ali","osama","mai","sama"};
-for(int i=0; i<4;i++){
-if(strcmp(names[i],"ibrahim")==0){
-    printf("found in %i steps\n", i+1);
+string names[] = {"ali","hema"};
+string numbers[] = {"011153","010256"};
+for(int i=0; i<2; i++){
+if(strcmp(names[i],"ali")==0){
+    printf("found%s\n",numbers[i]);
     return 0;
 }
-
 
 }
 printf("not found\n");
 return 1;
-
 }
