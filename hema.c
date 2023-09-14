@@ -1,12 +1,15 @@
 #include<cs50.h>
 #include<stdio.h>
-void fun(int n);
+void draw(int n);
 int main(void){
-
-    fun(4);
+int height=get_int("height: ");
+draw(height);
 }
-void fun(int n){
-if(n==0){return;}
-    printf("alhmdllah\n");
-    fun(n-1);
+void draw(int n){
+    for(int i=0; i<n;i++){
+        for(int j=0;j<n;j++){
+            printf("#");
+        }
+        printf("\n");
+    }
 }
